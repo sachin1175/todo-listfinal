@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e77877756a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading">
+        <h1>Task</h1>
+    </header>
+    <section class="middle">
+        <div class="leftDiv">
+            <div class="task">
+                <div style="display: flex;">Add Task : <span class="fill">please fill in task</span></div>
+                <div class="addTask">
+                        <div class="">
+                            <input class="inputBox taskInput" type="text" name="task" placeholder="Task">
+                        </div>
+                        <div class="addButtonDiv">
+                            <button class="addButton taskButton">ADD</button>
+                        </div>
+                </div>
+            </div>
+            <div class="description">
+                <div>Add Description : (Optional)</div>
+                <div class="addTask" style="height: 150px;">
+                        <div class="">
+                            <input class="inputBox descriptionInput" type="text" name="description" placeholder="Description" style="width: 450px;">
+                        </div>
+                        <!-- <div class="addButtonDiv">
+                            <button class="addButton descriptionButton">ADD</button>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="rightDiv">
+            <div style="font-weight: 700;">
+                Task :
+                <div class="show" style="margin-top: 10px;">
+                    <div class="bar">
+                        <div class="taskName">Task Name</div>
+                        <div class="taskName">Delete</div>
+                    </div>
+                    <div class="repeater">
+                    </div>
+                </div>
+            </div>
+            <div style="font-weight: 700;">
+                Description : <span class="hint" style="font-weight: 100;">Click on any Task to see its description</span>
+                <div class="show putDescription" style="height: 100px; margin-top: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bottom">
+        Made by Sachin Kumar Yadav. 
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
